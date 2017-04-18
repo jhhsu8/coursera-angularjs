@@ -140,12 +140,16 @@ angular.module('confusionApp').service('menuFactory', function() {
 		price: '19.99',
 		description: 'Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person ',
 	}];
+	
+	// Implement two functions, one named getDishes,
+	// the other named getDish(index)
 	this.getDishes = function() {
 		return dishes;
 	};
 	this.getDish = function(index) {
 		return dishes[index];
 	};
+	
 	// implement a function named getPromotion
 	// that returns a selected promotion.
 	this.getPromotion = function(index) {
@@ -182,6 +186,7 @@ angular.module('confusionApp').service('menuFactory', function() {
 		abbr: "EC",
 		description: "Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. He says, Put together the cuisines from the two craziest cultures, and you get a winning hit! Amma Mia!"
 	}];
+	
 	// Implement two functions, one named getLeaders,
 	// the other named getLeader(index)
 	// Remember this is a factory not a service
