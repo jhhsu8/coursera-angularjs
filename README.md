@@ -6,4 +6,4 @@ week 2: I used a JavaScript object in the 'app.js' to keep track of user informa
 
 week 3: I implemented the necessary factory and functions in 'services.js', implemented the controllers in 'controller.js', configured the corporated leaders information in 'aboutus.js', and configured the featured dish, promotions, and execute chef information in 'home.html'.
 
-week 4: I updated the web application in'services.js', 'controllers.js', 'home.html', and 'aboutus.html' to get data from the server to render information corresponding to the promotions and the leadership.
+week 4: I updated the web application in'services.js', 'controllers.js', 'home.html', and 'aboutus.html' to get data 'db.json' from the server to render information corresponding to the promotions and the leadership.
